@@ -1,0 +1,32 @@
+= read_confirm
+
+Print confirm prompt
+
+== Install
+
+[source,shell]
+----
+fisher add github.com/mimikun/read_confirm
+----
+
+== Usage
+
+[source,shell]
+----
+$ if read_confirm
+     echo "ok"
+ else
+     echo "ng"
+ end
+Continue? [y/N]: N
+ng
+
+$ set read_prompt "ok?"
+$ if read_confirm
+     echo "ok"
+ else
+    echo "ng"
+ end
+ok? [y/N]: y
+ok
+----
