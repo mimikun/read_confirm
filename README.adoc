@@ -6,7 +6,7 @@ Print confirm prompt
 
 [source,shell]
 ----
-fisher add github.com/mimikun/read_confirm
+fisher install mimikun/read_confirm
 ----
 
 == Usage
