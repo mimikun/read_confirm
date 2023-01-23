@@ -1,18 +1,16 @@
-= read_confirm
+# read_confirm
 
 Print confirm prompt
 
-== Install
+## Install
 
-[source,shell]
-----
+```shell
 fisher install mimikun/read_confirm
-----
+```
 
-== Usage
+## Usage
 
-[source,shell]
-----
+```shell
 $ if read_confirm
      echo "ok"
  else
@@ -29,4 +27,4 @@ $ if read_confirm
  end
 ok? [y/N]: y
 ok
-----
+```
